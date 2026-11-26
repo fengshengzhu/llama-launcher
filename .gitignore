@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# PyInstaller build artifacts (rebuild with build.bat)
+build/
+*.spec
+
+# Prebuilt binaries are published via GitHub Releases, not committed
+dist/
+
+# Local runtime state / logs
+crash.log
+*.log
+settings.json
+presets.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
